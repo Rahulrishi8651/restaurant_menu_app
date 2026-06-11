@@ -1,0 +1,61 @@
+/* ── variables.css ─────────────────────────────────────────── */
+:root {
+  /* Brand palette */
+  --clr-primary:       #E8450A;   /* spicy orange-red */
+  --clr-primary-dark:  #C33A08;
+  --clr-primary-light: #FF6B35;
+  --clr-accent:        #F9A825;   /* golden yellow */
+  --clr-accent-dark:   #E65100;
+
+  /* Neutrals */
+  --clr-bg:            #0F0F0F;
+  --clr-surface:       #1A1A1A;
+  --clr-surface-2:     #242424;
+  --clr-surface-3:     #2E2E2E;
+  --clr-border:        #3A3A3A;
+  --clr-text:          #F5F5F5;
+  --clr-text-muted:    #9E9E9E;
+  --clr-text-dim:      #616161;
+
+  /* Status */
+  --clr-success:       #4CAF50;
+  --clr-warning:       #FF9800;
+  --clr-error:         #F44336;
+  --clr-info:          #2196F3;
+
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'DM Sans', -apple-system, sans-serif;
+  --font-mono:    'JetBrains Mono', monospace;
+
+  /* Spacing scale */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.25rem;
+  --sp-6: 1.5rem;
+  --sp-8: 2rem;
+  --sp-10: 2.5rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+  --sp-20: 5rem;
+
+  /* Radii */
+  --r-sm:   6px;
+  --r-md:   12px;
+  --r-lg:   18px;
+  --r-xl:   24px;
+  --r-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm:  0 1px 3px rgba(0,0,0,.4);
+  --shadow-md:  0 4px 16px rgba(0,0,0,.5);
+  --shadow-lg:  0 8px 32px rgba(0,0,0,.6);
+  --shadow-glow: 0 0 24px rgba(232,69,10,.35);
+
+  /* Transitions */
+  --t-fast:   0.15s ease;
+  --t-normal: 0.25s ease;
+  --t-slow:   0.4s ease;
+}
